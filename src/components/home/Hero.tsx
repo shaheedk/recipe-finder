@@ -4,13 +4,13 @@ import "./home.css";
 const Hero = () => {
   return (
     <div className="flex flex-col py-10 px-6 md:px-20">
-      <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full   ">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full">
         <div className="l flex flex-col gap-6 text-center ml-2 md:text-left">
-          <h1 className="text-3xl md:text-4xl font-bold text-black">
+          <h1 className="text-3xl md:text-4xl font-bold text-black dark:text-white">
             Let's Cook Your <span className="text-yellow-400">Favorite</span>{" "}
             Meal
           </h1>
-          <p className="text-gray-700 text-base md:text-lg max-w-xl">
+          <p className="text-gray-700 text-base md:text-lg max-w-xl dark:text-white">
             Discover a world of flavors and elevate your cooking experience.
             Whether you're craving comfort food or gourmet dishes, we help you
             cook it just right.
