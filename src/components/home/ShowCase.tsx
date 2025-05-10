@@ -11,14 +11,14 @@ const ShowCase = () => {
         {showCase.map((feature, index) => (
           <div
             key={index}
-            className="bg-yellow-400/80 dark:bg-[#1f1f1f] rounded-lg  hover:shadow-xl transition-all duration-300  flex flex-col p-2  items-center text-center"
+            className="bg-gray-200 text-black dark:bg-[#1f1f1f] rounded-lg  hover:shadow-xl transition-all duration-300  flex flex-col p-2  items-center text-center"
           >
             <img
               src={feature.image}
               alt={`${feature.title} illustration`}
               className="w-full h-60 object-cover  mb-4"
             />
-            <h3 className="text-xl font-semibold text-white mb-2">{feature.title}</h3>
+            <h3 className="text-xl font-semibold dark:text-white mb-2">{feature.title}</h3>
        
           </div>
         ))}
